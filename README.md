@@ -1,35 +1,50 @@
-# My.Login.Firebase-2020
-Simple Login page and Registration Page using Firebase in Android Studio
+#  My.Login.Firebase-2020
+Simple Login page and Registration Page using Firebase in Android Studio(Basic project).
 
-## Application Contains Four Activities:
+### We have following activities in our application
+ ****
 
-### 1) Register Activity 
-### 2) Login Activity 
-### 3) Home Activity
-### 4) Dashboard Activity
+  - Registration Activity
+  - Login Activity
+  - Main Activity
+  - Dashboard
+  
+### Registration
+**** 
+Here the user register for the application using mail id which is authenticated using firebase.
 
-#### 1) Register Activity 
-> Allows users to register an account using thier email id and password.
+### Login
+**** 
+Here the Registered user is allowed to login to their account
+authenticated using firebase.
 
+### Main Layout
+****
+Here there is a Button that allow the user to go to login or registration page.
 
-#### 2)Login Activity
-> Allows to user to login to thier account.
+### Dashboard
+****
+Here the user can add what ever activity after login.
 
-#### 3)Home Activity
-> It has a Button that goes to Login page and Register page.
+### Execution
+ ****
+- The Login and Registration process is by connecting to firebase.
 
+### Application user interface
+ ****
+<table>
+  <tr>
+    <td>Main Activity</td>
+     <td>Registration Page</td>
+     <td>Login Page</td>
+	  <td>Dashboard</td>
+  </tr>
+  <tr>
+    <td><img src="img/main.png" width=270 height=480></td>
+    <td><img src="img/register.png" width=270 height=480></td>
+    <td><img src="img/login.png" width=270 height=480></td>
+	 <td><img src="img/dashboard.png" width=270 height=480></td>
+  </tr>
+ </table>
 
-#### 4)Dashboard Activity
->It is the Empty page where u can add and activity u like after Login.
-
-## Activity looks similar to:-
-
-![Alt text](img/home.png?raw=true "MainActivity")
-![Alt text](img/register.png?raw=true "Register")
-![Alt text](img/login.png?raw=true "Login")
-![Alt text](img/dashboard.png?raw=true "Dashboard")
-
-
-## To connect Firebase to your Android application:-
-#### Refer this
-> [Connect Firebase using Android Studio](https://firebase.google.com/docs/android/setup)
+Thank you...
